@@ -1,0 +1,18 @@
+name: Deploy SQL Server
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar el entorno
+        run: echo "Workflow de despliegue preparado"
