@@ -1,0 +1,2 @@
+-- Script para insertar datos de prueba
+-- y verificar el funcionamiento de la base de datos.
