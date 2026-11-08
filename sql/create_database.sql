@@ -1,2 +1,10 @@
--- Script para crear la base de datos EmpresaDB.
--- La configuracion se agregara en el siguiente paso.
+
+IF DB_ID('EmpresaDB') IS NULL
+BEGIN
+    CREATE DATABASE EmpresaDB;
+END;
+GO
+
+USE EmpresaDB;
+GO
+
