@@ -1,0 +1,2 @@
+-- Script para crear las tablas Ventas y AuditoriaVentas.
+-- Las tablas se configuraran en el siguiente paso.
