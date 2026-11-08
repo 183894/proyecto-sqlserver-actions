@@ -1,0 +1,17 @@
+name: Generar reporte CSV
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * *'
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar el reporte
+        run: echo "Workflow de reporte preparado"
