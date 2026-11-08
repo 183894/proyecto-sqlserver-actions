@@ -1,0 +1,2 @@
+-- Script para crear el trigger trg_AuditarVenta.
+-- Se modificara para soportar inserciones multiples.
