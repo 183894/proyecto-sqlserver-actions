@@ -1,0 +1,2 @@
+-- Script para crear el procedimiento almacenado
+-- sp_RegistrarAuditoria.
