@@ -1,0 +1,2 @@
+-- Script para crear la base de datos EmpresaDB.
+-- La configuracion se agregara en el siguiente paso.
