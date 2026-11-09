@@ -1,10 +1,16 @@
-
-name: Generar reporte CSV
-
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/report.yml'
+      - 'sql/**'
+
   workflow_dispatch:
+
   schedule:
     - cron: '0 12 * * *'
+
 
 jobs:
   report:
